@@ -1,0 +1,110 @@
+.c-header {
+  height: 60px;
+  background: #192024; }
+  .c-header nav {
+    padding-top: 20px;
+    float: left; }
+    .c-header nav a {
+      padding: 3px 10px 0 10px;
+      text-decoration: none;
+      float: left;
+      color: #fff; }
+      .c-header nav a:hover {
+        color: #42afe5;
+        cursor: pointer; }
+    .c-header nav .logo {
+      margin-right: 20px;
+      float: left;
+      width: 100px; }
+      .c-header nav .logo img {
+        width: 100%; }
+  .c-header .change-language {
+    float: right;
+    padding-top: 20px; }
+    .c-header .change-language li {
+      display: inline-block;
+      font-size: 12px;
+      color: #fff; }
+    .c-header .change-language .active:hover {
+      color: #42afe5;
+      cursor: pointer; }
+
+.c-footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+  .c-footer p {
+    color: #999; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: #333; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#__next, body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #e9e9e9; }
+
+.center-block {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.example {
+  font-size: 50px;
+  margin-top: 40px; }
+
+.c-basicLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .c-basicLayout-top {
+    flex: 1;
+    display: flex;
+    flex-direction: column; }
+  .c-basicLayout-content {
+    flex: 1; }
+
